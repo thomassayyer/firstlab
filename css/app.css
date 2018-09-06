@@ -1,0 +1,39 @@
+
+@font-face {
+    font-family: 'Great Day';
+    src: url(../fonts/great_day.ttf);
+}
+
+html, body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+a {
+    cursor: pointer;
+}
+
+.navbar {
+    background-color: #2c3e50;
+    margin: 0;
+    padding: 10px 20px;
+}
+
+.navbar ul {
+    list-style-type: none;
+    margin: 0;
+}
+
+.navbar li {
+    display: inline;
+    color: white;
+    margin: 0 20px;
+}
+
+.navbar li.active {
+    font-weight: bold;
+}
+
+.navbar li.brand {
+    font-family: 'Great Day', Arial, Helvetica, sans-serif;
+    font-size: 1.7rem;
+}
