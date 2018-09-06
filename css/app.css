@@ -1,13 +1,69 @@
 
-@font-face {
-    font-family: 'Lovely Home';
-    src: url(../fonts/lovely_home.ttf);
-}
-
 html, body {
     font-family: 'Roboto', sans-serif;
+    width: 100%;
+    margin: 0;
 }
 
 a {
     cursor: pointer;
+}
+
+#navbar {
+    background-color: rgba(0, 0, 0, .8);
+    color: rgba(255, 255, 255, .7);
+    padding: 20px;
+}
+
+#navbar ul {
+    list-style-type: none;
+    display: none;
+    flex-direction: column;
+    margin: 0;
+    padding: 0;
+}
+
+#navbar li {
+    text-align: center;
+    margin: 10px 0;
+}
+
+#brand {
+    display: inline-block;
+    font-size: 1.3rem;
+    font-family: 'Pacifico', cursive;
+}
+
+#navbar .toggle {
+    float: right;
+    font-size: 2rem;
+    cursor: pointer;
+}
+
+#navbar li:hover, #navbar .toggle:hover, #brand:hover {
+    color: rgba(255, 255, 255, .9);
+}
+
+@media screen and (min-width: 768px) {
+
+    #navbar {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    #navbar ul {
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-end;
+    }
+
+    #navbar .toggle {
+        display: none;
+    }
+
+    #navbar li {
+        margin: 10px;
+    }
+
 }
