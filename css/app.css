@@ -51,6 +51,17 @@ a {
     color: rgba(255, 255, 255, .9);
 }
 
+#container {
+    width : 100%;
+}
+
+#pictureBox{
+    padding: 5%;
+}
+img {
+    width : 50%;
+}
+
 @media screen and (min-width: 768px) {
 
     #navbar {
