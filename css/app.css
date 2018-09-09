@@ -53,12 +53,15 @@ a {
 
 #container {
     width : 100%;
+    text-align: center;
+
 }
 
-#pictureBox{
+.picture-box {
     padding: 5%;
 }
-img {
+
+.picture-box img {
     width : 50%;
 }
 
